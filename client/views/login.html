@@ -1,0 +1,36 @@
+<template name="login">
+	<div class="grey-background"></div>
+	<div id="login" class="container">
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4">
+				<div class="text-center">
+					<img src="logo.png" alt="logo" />
+				</div>
+				<div class="login-buttons" ng-if="!loggingIn">
+					<a class="btn btn-block btn-social btn-google-plus">
+						<i class="fa fa-google-plus"></i>
+						Accedi con Google
+					</a>
+					<a class="btn btn-block btn-social btn-facebook" ng-click="login.facebook()">
+						<i class="fa fa-facebook"></i>
+						Accedi con Facebook
+					</a>
+					<a class="btn btn-block btn-social btn-github">
+						<i class="fa fa-github"></i>
+						Accedi con Github
+					</a>
+					<a class="btn btn-block btn-social btn-twitter">
+						<i class="fa fa-twitter"></i>
+						Accedi con Twitter
+					</a>
+				</div>
+				<div class="login-spinner text-center" ng-if="loggingIn">
+					<i class="fa fa-spinner fa-spin"></i>
+				</div>
+				<div class="alert alert-danger" ng-if="retryLogin">
+					Accesso non riuscito.
+				</div>
+			</div>
+		</div>
+	</div>
+</template>

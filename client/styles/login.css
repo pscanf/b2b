@@ -1,0 +1,24 @@
+#login {
+	padding-top: 5%;
+}
+
+#login img {
+	margin-bottom: 50px;
+}
+
+#login .login-buttons {
+	margin-bottom: 30px;
+}
+
+#login .login-buttons a:hover {
+	color: #ffffff;
+}
+
+#login .login-spinner {
+	width: 100%;
+	margin-top: 50px;
+}
+
+#login .login-spinner i {
+	font-size: 2em;
+}

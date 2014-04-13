@@ -1,0 +1,12 @@
+{
+  "packages": {
+    "angular-ui-router": {},
+    "angular-bootstrap": {},
+    "angular-ui-utils": {},
+    "font-awesome": {},
+    "collection2": {},
+    "ngStorage": {},
+    "external-file-loader": {},
+    "ps-ui": {}
+  }
+}

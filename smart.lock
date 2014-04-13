@@ -1,0 +1,72 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "angular-ui-router": {},
+      "angular-bootstrap": {},
+      "angular-ui-utils": {},
+      "font-awesome": {},
+      "collection2": {},
+      "ngStorage": {},
+      "external-file-loader": {},
+      "ps-ui": {}
+    },
+    "packages": {
+      "angular-ui-router": {
+        "git": "https://github.com/ccll/meteor-angular-ui-router.git",
+        "tag": "v0.2.2",
+        "commit": "5b10a69b961bc6a89a81f7a28d1bf93408a5ae4c"
+      },
+      "angular-bootstrap": {
+        "git": "https://github.com/ccll/meteor-angular-bootstrap.git",
+        "tag": "v0.1.2",
+        "commit": "ba277977a4ebc0b56e62facdfd336375db3ce44c"
+      },
+      "angular-ui-utils": {
+        "git": "https://github.com/pscanf/meteor-angular-ui-utils.git",
+        "tag": "v0.1.1",
+        "commit": "82352f3ae4d3686643f8e0cef71df6734c4e23d6"
+      },
+      "font-awesome": {
+        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
+        "tag": "v4.0.3",
+        "commit": "61e9361384347547ae144f8228faa4deffda23db"
+      },
+      "collection2": {
+        "git": "https://github.com/aldeed/meteor-collection2.git",
+        "tag": "v0.3.8",
+        "commit": "69aff2a21ba3c382f915e1f9dbcca2ad38edb6d5"
+      },
+      "ngStorage": {
+        "git": "https://github.com/pscanf/meteor-ngStorage.git",
+        "tag": "v0.3.0",
+        "commit": "1bfd94252e6e41825dc370c67bf71ca1121cc4b0"
+      },
+      "external-file-loader": {
+        "git": "https://github.com/davidd8/meteor-external-file-loader.git",
+        "tag": "v0.1.4",
+        "commit": "352694a7cf906b8241161c2fd1435161c1d5409f"
+      },
+      "ps-ui": {
+        "git": "https://github.com/pscanf/meteor-ps-ui.git",
+        "tag": "v0.1.4",
+        "commit": "517446e5846f688bad37d3724394552bfa39c70d"
+      },
+      "bower": {
+        "git": "https://github.com/mquandalle/meteor-bower.git",
+        "tag": "v0.1.2",
+        "commit": "780b841593c355d1522982e50e7a59fe35d33fee"
+      },
+      "ngMeteor": {
+        "git": "https://github.com/loneleeandroo/ngMeteor.git",
+        "tag": "v0.1.18",
+        "commit": "c5e21f6332f5b8a771bf68ab333863955d0bd8aa"
+      },
+      "simple-schema": {
+        "git": "https://github.com/aldeed/meteor-simple-schema.git",
+        "tag": "v0.2.40",
+        "commit": "d22892daa943e3567916effeaafd794ca6af5cd2"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+<template name="addIdentity">
+	<div class="grey-background"></div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="form-group">
+					<label><i class="fa fa-user"></i> Nome</label>
+					<div class="ps-vsp-4"></div>
+					<input type="text" class="form-control" placeholder="Nome" ng-model="person.info.firstName" />
+				</div>
+				<div class="form-group">
+					<label><i class="fa fa-user"></i> Cognome</label>
+					<div class="ps-vsp-4"></div>
+					<input type="text" class="form-control" placeholder="Cognome" ng-model="person.info.lastName" />
+				</div>
+				<ps-fc-codice-fiscale cf="person.info.fiscalCode"></ps-fc-codice-fiscale>
+				<ps-fc-addresses addresses="person.info.addresses"></ps-fc-addresses>
+				<br />
+				<ps-fc-emails emails="person.info.emails"></ps-fc-emails>
+				<br />
+				<ps-fc-phones phones="person.info.phones"></ps-fc-phones>
+				<br />
+				<ps-fc-faxes faxes="person.info.faxes"></ps-fc-faxes>
+				<br />
+				<button type="button" class="btn btn-default" ng-click="addIdentity()">
+					Aggiungi
+				</button>
+			</div>
+		</div>
+	</div>
+</template>
